@@ -1,0 +1,35 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Anti-slop AI
+HealthyBite_MiniAI/anti-slop/
+HealthyBite_MiniAI/antislop-ai/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+**/.streamlit/secrets.toml
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# AI coding agent configuration
+.agents/
+**/.agents/
+
+# Local agent instructions
+AGENTS.md
+**/AGENTS.md
